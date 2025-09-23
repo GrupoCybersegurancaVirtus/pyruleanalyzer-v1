@@ -1,9 +1,9 @@
-from rule_classifier import RuleClassifier
+from pyruleanalyzer.rule_classifier import RuleClassifier
 
 # ************************ EXECUÇÃO ************************
 
-train_path = "data/rapid_balanceado_treinamento.csv"
-test_path = "data/rapid_balanceado_teste.csv"
+train_path = "examples/data/train.csv"
+test_path = "examples/data/test.csv"
 
 # Model parameters
 model_parameters = {

@@ -1,0 +1,59 @@
+
+******************************* INITIAL MODEL *******************************
+
+Correct: 838, Errors: 65, Total: 903
+Accuracy: 0.92802
+Precision: 0.96437
+Recall: 0.89035
+F1 Score: 0.92588
+Specificity: 0.96644
+
+Confusion Matrix with Labels:
+Labels: [0, 1]
+[[432  15]
+ [ 50 406]]
+
+Number of initial rules: 46
+
+Time elapsed in executing initial model classifications: 0.070 seconds
+
+******************************* FINAL MODEL *******************************
+
+Correct: 838, Errors: 65, Total: 903
+Accuracy: 0.92802
+Precision: 0.96437
+Recall: 0.89035
+F1 Score: 0.92588
+Specificity: 0.96644
+
+Confusion Matrix with Labels:
+Labels: [0, 1]
+[[432  15]
+ [ 50 406]]
+
+Number of final rules: 35
+
+Time elapsed in executing final model classifications: 0.051 seconds
+
+******************************* DIVERGENT CASES *******************************
+No divergent cases found.
+
+******************************* INTERPRETABILITY METRICS *******************************
+
+Metrics (Initial):
+  Features Used: 10
+  Total Features: 10
+  Sparsity: 0.00e+00
+  Total Rules: 46
+  Max Depth: 8
+  Mean Rule Depth: 5.91
+  Sparsity Interpretability Score: 1.67
+
+Metrics (Final):
+  Features Used: 10 (+0.0%)
+  Total Features: 10 (+0.0%)
+  Sparsity: 0.00e+00
+  Total Rules: 35 (-23.9%)
+  Max Depth: 8 (+0.0%)
+  Mean Rule Depth: 5.60 (-5.3%)
+  Sparsity Interpretability Score: 2.06 (+23.3%)
